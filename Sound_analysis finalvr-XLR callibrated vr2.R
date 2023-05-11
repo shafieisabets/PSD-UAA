@@ -1,8 +1,9 @@
 #install.packages('devtools')
 #require(devtools)
+
 #install_git("https://gitlab.com/RTbecard/ezPSD.git", build_vignettes = T, force = T)
 require(ezPSD)
-#also the source code for the ezPSD package needs to be downloaded...
+#also the source code for the ezPSD package needs to be downloaded... still not completed
 
 #install.packages('ggplot2')
 require(ggplot2)
