@@ -3,8 +3,9 @@
 
 #install_git("https://gitlab.com/RTbecard/ezPSD.git", build_vignettes = T, force = T)
 require(ezPSD)
-#also the source code for the ezPSD package needs to be downloaded... still not completed
+#also the source code for the ezPSD package needs to be downloaded and located in the repository
 
+#install.packages("C:/Users/Reviewer/Dropbox/PSD-UAA/ezPSD-master.tar.gz", repos = NULL, type="source", dependencies = TRUE)
 #install.packages('ggplot2')
 require(ggplot2)
 
